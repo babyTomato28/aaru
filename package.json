@@ -1,0 +1,22 @@
+{
+  "name": "moon-surprise",
+  "version": "1.0.0",
+  "description": "A surprise application that reveals a birthday message if the uploaded image is of the moon.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "dev": "nodemon script.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^1.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Surprise!!!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dingdingdingding</h1>
+    <p>Take a picture of something as beautiful as you and upload it to unlock your surprise🎀 (use your brain, it's kinda deep)</p>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <input type="file" name="image" accept="image/*" required />
+      <button type="submit">Upload</button>
+    </form>
+
+    <p id="message" style="display: none;">HAPPY BIRTHDAYYYY MOONPIE!!!! I LOVE YOUUU SO MUCH YOU LITTLE DINGUS </p>
+    <div class="loading-animation" style="display: none;">Loading...</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
